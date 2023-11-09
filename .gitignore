@@ -1,0 +1,6 @@
+*.*
+!*.py
+!*.md
+!/inds/indata/*
+deleteme.py
+!.gitignore
