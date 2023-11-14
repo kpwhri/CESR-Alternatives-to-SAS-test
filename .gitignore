@@ -3,5 +3,5 @@
 !*.md
 !/inds/indata/*
 deleteme.py
-!*.requirements.txt
+!requirements.txt
 !.gitignore
