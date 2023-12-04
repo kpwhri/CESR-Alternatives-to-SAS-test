@@ -127,7 +127,7 @@ share_md.create_md_file()
 
 # create a zip file of the output
 logging.info('Creating zip file')
-share_zip = os.path.join(pkg_dir, f'{package_name}_v{package_ver}_{local_config['site']}_{date.today()}.zip')    
+share_zip = os.path.join(pkg_dir, f'{package_name}_v{package_ver}_{local_config["site"]}_{date.today()}.zip')    
 shutil.make_archive(share_zip, 'zip', share)
 logging.info('Finished')
    
